@@ -1,8 +1,8 @@
 .background {
-    background-image: url(hardware.png)
+    background-image: url(./img/hardware.png)
 }
 .title {
-    background-image: url(headline.gif);
+    background-image: url(./img/headline.gif);
     opacity: 100%;
     text-align: center;
     font-family: 'Redaction_50-Regular';
@@ -17,7 +17,7 @@
     margin-left: 5%;
     margin-right: 5%;
     padding: 1%;
-    background-image: url(main.gif);
+    background-image: url(./img/main.gif);
     font-family: dosfont;
 }
 
@@ -28,7 +28,7 @@
 
 .lastfm{
     margin: 2.5%;
-    background-image: url(main.gif);
+    background-image: url(./img/main.gif);
 }
 
 a{
