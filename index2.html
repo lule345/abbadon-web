@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="site.css">
+        <script type="module" src="scripts.js"></script>
+    </head>
+<body>
+    <div class="background">
+    <div class="body">
+        <div class="title">
+            <h1 style="opacity: 100%">Cyberia Collective</h1>
+        </div>
+        <div class="marquee">
+        <marquee id="marquee" behavior="scroll" direction="right" onmouseover="this.stop();" onmouseout="this.start();">
+        <img src="./img/best_chrome.gif">
+       <img src="./img/jquery.gif">
+       <img src="./img/madewithnotepad2.gif">
+       <img src="./img/neocities.gif">
+       <img src="./img/phonechump.gif">
+       <img src="./img/win95.gif">
+       <a href="https://dimden.dev" target="_blank" title="Thank You to Dimden and Their Community for Their Support!"> <img src="https://dimden.dev/services/images/88x31.gif"></a>
+       <a href="https://theoldnet.com/get?decode=false&scripts=false&timestamp=19981111184551&url=http://google.stanford.edu" target="_blank" title="Google!"> <img src="./img/google.gif"></a>
+       <a href="https://discord.gg/QNTBDAT2wT" target="_blank" title=":3"> <img src="./img/discord3.gif"></a>
+       <a href="https://upload.wikimedia.org/wikipedia/en/9/9a/Trollface_non-free.png" target="_blank" title="CLICK ME!"> <img src="./img/clickhere_blue.gif"></a>
+       <img src="./img/anti_button.gif">
+       <img src="./img/anyie_anim.gif">
+       <img src="./img/bestview.gif">
+       <img src="./img/bestvw.gif">
+       <img src="./img/cc-somerights.gif">
+       <img src="./img/debian.gif" title="actually im using SteamOS right now lol">
+       <a href="https://lules-oddities.vercel.app/THEEND.html"><img src="./img/000010.gif"></a>
+       <a href="https://cyber.dabamos.de/88x31/" target="_blank" title="Free GIFs!!!"> <img src="./img/bettie-gifs-3.gif"></a>
+       <a href="https://kraftwerk.com" target="_blank" title="KRAFTWERK"> <img src="./img/kraftwerk88x31.gif"></a>
+       <a href="https://teenage.engineering" target="_blank" title="Teenage Engineering"> <img src="./img/TE.png"></a>
+       <img src="https://badgen.net/static/lules-oddities/yipee/green/?icon=github">
+       <img src="./img/bikobatanari.gif">
+       <a href="https://www.mabsland.com/Adoption.html" target="_blank"><img src="./img/Censor_NYRc.gif"></a>
+       <a href="https://lules-oddities.vercel.app/.well-known/keybase.txt" title="Verified Website via PGP"><img src="./img/pgp.gif"></a>
+       <a href="https://kubikill.neocities.org"><img src="./img/kubikill88x31.gif" alt="kubikill's Cyberspace Portal" width="88" height="31"></a>
+       <a href="https://witchdagger.com" target="_blank"><img src="https://witchdagger.com/buttons/button.gif"></a>
+       <a href="http://validator.w3.org/feed/check.cgi?url=lules-oddities.vercel.app/rss.xml"><img src="./img/valid-rss-rogers.png" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
+      </marquee>
+        </div>
+        <div class="foreground">
+     <h3 class="text">Hi there. I'm Målingen, or lule345. I do web development as a hobby and like games, science fiction, and electronica music. You can check out more about me on, well, <a href="https://lules-oddities.vercel.app/aboutme.html" title="About Me"><i>The About Me Page</i></a></h3>
+     <h3 class="text">Version 2 complete! See the changelog on either the repo "README.md" or on <a href="https://discord.gg/QNTBDAT2wT" title="Modem">Modem</a></h3>
+     <h3 class="text">There's a lot of unused or secret content in this website! What can you find? (hint: check the buttons)</h3>
+        </div>
+        <div>
+          <!-- Melon's Mini Jukebox - Plays MIDIs, MP3s, and most audio files -->
+          <div id="mk-juke" >
+            <marquee id="jukebox_title"></marquee>
+            <div class="jukebox-buttons">
+            <button id="mk-juke-prev" onclick="playPreviousSong()">Previous</button>
+            <button id="mk-juke-play" onclick="mkPlay()">Play!</button>
+            <button id="mk-juke-next" onclick="playNextSong()">Next</button>
+            </div>
+          </div>
+          <script src="https://www.midijs.net/lib/midi.js"></script>
+          <script src="./jukebox.js"></script>
+      </div>
+      <br>
+        <div class="foreground">
+        <h2>Most Recent SpaceHey Post</h2>
+            <h3 id="rss"></h3>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
